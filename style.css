@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: cadetblue;
+    text-align: center;
+}
+main{
+  width: 90%;
+  max-height: 80%;
+  border-radius: 5px;
+  padding: 10px;
+  background: white;
+}
+form{
+  overflow: hidden;
+}
+form input{
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  width: 100%;
+  border: none;
+  padding: 0.5rem;
+  text-align: center;
+  outline: none;
+  border-bottom: 1px solid #eee;
+}
+button{
+  width: 100%;
+  background: royalblue;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 0.5rem;
+  margin: 1rem 0;
+}
